@@ -67,7 +67,7 @@ var app = (function(_) {
 
         // Send a deal notification to an individual subscriber
         sendNotificationToSubscriber: function(notification, subscriber) {
-            self.sendEmail(
+            this.sendEmail(
                 subscriber.emailAddress,
                 FROM_ADDRESS,
                 notification.subject,

@@ -1,6 +1,7 @@
 {
   "framework": "jasmine",
   "src_files": [
+    "node_modules/underscore/underscore-min.js",
     "src/*.js",
     "test/*.js"
   ]
