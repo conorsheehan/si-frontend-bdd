@@ -1,4 +1,4 @@
-var app = (function(_) {
+var dealApp = (function(_) {
 
     var FROM_ADDRESS = "deals@startupinstitute.com";
 

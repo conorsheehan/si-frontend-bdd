@@ -1,12 +1,14 @@
-describe('The Deals App', function() {
+xdescribe('The Deals App', function() {
 
-    var dealApp,
+    var myDealApp,
         dealData;
 
-    // Run this block before each test
+    // RUNS BEFORE EACH TEST //
+
     beforeEach(function() {
+
         // Initialize app
-        dealApp = app.init();
+        myDealApp = dealApp.init();
 
         // Sample Deal Data
         dealData = {
@@ -20,7 +22,8 @@ describe('The Deals App', function() {
         };
     });
 
-    // The tests!
+    // THE TESTS! //
+
     it('Has no Active Deals when the Deal App is started', function() {
         expect(dealApp.activeDeals.length).toEqual(0);
     });
