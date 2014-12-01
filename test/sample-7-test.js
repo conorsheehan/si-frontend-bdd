@@ -32,7 +32,7 @@ xdescribe('The Total Calculator', function() {
             expectedTotal = 115,
             total;
 
-        spyOn(sampleApp7, 'taxCalculator').andReturn(0);
+        spyOn(sampleApp7, 'taxCalculator').and.returnValue(0);
 
         total = sampleApp7.totalCalculator(subtotal, tipPercentage);
 
@@ -45,7 +45,7 @@ xdescribe('The Total Calculator', function() {
             expectedTotal = 240,
             total;
 
-        spyOn(sampleApp7, 'taxCalculator').andReturn(0);
+        spyOn(sampleApp7, 'taxCalculator').and.returnValue(0);
 
         total = sampleApp7.totalCalculator(subtotal, tipPercentage);
 
@@ -58,7 +58,7 @@ xdescribe('The Total Calculator', function() {
     //         expectedTotal = 252.5,
     //         total;
 
-    //     spyOn(sampleApp7, 'taxCalculator').andReturn(12.5);
+    //     spyOn(sampleApp7, 'taxCalculator').and.returnValue(12.5);
 
     //     total = sampleApp7.totalCalculator(subtotal, tipPercentage);
 
