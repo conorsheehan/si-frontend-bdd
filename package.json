@@ -1,6 +1,6 @@
 {
   "name": "SI-Frontend-BDD",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Front-end Behavior Driven Design app for Startup Institute",
   "main": "app.js",
   "dependencies": {
